@@ -1,0 +1,72 @@
+:root {
+  --primarycolor: #ff274b;
+  --secondarycolor: #f7bcf7;
+  --lighcolor: #ffffff;
+  --bgcolor-1: #171a1c;
+  --bgcolor-2: #22282a;
+  --padding: 8%;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+html {
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 16px;
+  color: var(--lighcolor);
+  background-color: var(--bgcolor-1);
+}
+
+h1 {
+  font-size: 3rem;
+  margin: 1.7rem;
+}
+span {
+  color: var(--primarycolor);
+}
+
+header {
+  /* background-color: var(--bgcolor-1); */
+  color: white;
+  text-align: center;
+  padding: 1em 0;
+}
+
+main {
+  padding: 20px;
+}
+
+footer {
+  /* background-color: var(--bgcolor-2); */
+  color: white;
+  text-align: center;
+  padding: 1em 0;
+  bottom: 0;
+  width: 100%;
+}
+
+/* Nouveaux styles pour le tableau */
+table {
+  border-collapse: collapse;
+  width: 100%;
+  margin-top: 20px;
+}
+
+th,
+td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: left;
+}
+
+td {
+  font-family: sans-serif;
+}
+
+th {
+  background-color: #000;
+  color: var(--primarycolor);
+}
