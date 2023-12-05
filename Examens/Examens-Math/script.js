@@ -1,13 +1,13 @@
 // Exemple de tableau de cours (remplacez-le par votre logique de récupération des données depuis le backend).
 const cours = [
   {
-    titre: "CoursMath 1",
-    description: "Description du cours 1",
+    titre: "ExamenNAtionale 2010",
+    // description: "Description du cours 1",
     fichier: "cours1.pdf",
   },
   {
-    titre: "Cours 2",
-    description: "Description du cours 2",
+    titre: "ExamenNAtionale 2011",
+    // description: "Description du cours 2",
     fichier: "cours2.pdf",
   },
   // Ajoutez d'autres cours selon vos besoins.
@@ -22,7 +22,6 @@ function afficherCours() {
         <thead>
             <tr>
                 <th>Titre</th>
-                <th>Description</th>
                 <th>Action</th>
             </tr>
         </thead>
@@ -32,7 +31,6 @@ function afficherCours() {
                 (c) => `
                 <tr>
                     <td>${c.titre}</td>
-                    <td>${c.description}</td>
                     <td><a href="${c.fichier}" target="_blank">Voir le cours</a></td>
                 </tr>
             `

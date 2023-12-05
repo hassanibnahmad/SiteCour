@@ -6,7 +6,7 @@ const cours = [
     fichier: "cours1.pdf",
   },
   {
-    titre: "Cours 2",
+    titre: "CoursMath 2",
     description: "Description du cours 2",
     fichier: "cours2.pdf",
   },

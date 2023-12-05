@@ -1,12 +1,12 @@
 // Exemple de tableau de cours (remplacez-le par votre logique de récupération des données depuis le backend).
 const cours = [
   {
-    titre: "CoursMath 1",
+    titre: "CoursPH 1",
     description: "Description du cours 1",
     fichier: "cours1.pdf",
   },
   {
-    titre: "Cours 2",
+    titre: "CoursPH 2",
     description: "Description du cours 2",
     fichier: "cours2.pdf",
   },
